@@ -1,0 +1,40 @@
+/* src/components/ChatBox.css */
+.chat-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+  
+  .chat-box {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background: #f7f7f7;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    background-color: darkblue;
+  }
+  
